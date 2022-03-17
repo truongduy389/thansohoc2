@@ -77,8 +77,8 @@
             <div class="container">
                 <div class="main__result-box">
                     <h4>1. CHỈ SỐ ĐƯỜNG ĐỜI (SỐ CHỦ ĐẠO) CỦA BẠN LÀ: <span class="color-result">Số <?php echo $data['so']?></span></h4>
-                    <p>Chỉ số này hé lộ con đường mà bạn sẽ trải qua trong cuộc đời này. Nó cho bạn thấy bạn sẽ gặp phải những trải nghiệm như thế nào, và bạn học được gì sau những trải nghiệm đó. Nó cung cấp nhiều thông tin về con người bạn và cuộc đời mà bạn sẽ sống.</p>
-                   
+                    <!-- <p>Chỉ số này hé lộ con đường mà bạn sẽ trải qua trong cuộc đời này. Nó cho bạn thấy bạn sẽ gặp phải những trải nghiệm như thế nào, và bạn học được gì sau những trải nghiệm đó. Nó cung cấp nhiều thông tin về con người bạn và cuộc đời mà bạn sẽ sống.</p> -->
+                    <p><?php echo $data['query']?></p>
                 </div>
                 <div class="main__result-box mt-4">
                     <h4>2. CHỈ SỐ SỨ MỆNH</h4>
